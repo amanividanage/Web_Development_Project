@@ -48,8 +48,8 @@ html, body {
   /* Add padding to containers */
   .container {
     padding: 16px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 500px;
+    margin-right: 500px;
   }
   
   /* Full-width input fields */
@@ -59,11 +59,11 @@ html, body {
     margin: 5px 0 22px 0;
     display: inline-block;
     border: none;
-    background: #f1f1f1;
+    background: #ffffff;
   }
   
   input[type=text]:focus, input[type=password]:focus {
-    background-color: #ddd;
+    background-color: rgb(255, 255, 255);
     outline: none;
   }
   
