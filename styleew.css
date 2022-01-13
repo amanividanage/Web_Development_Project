@@ -1,0 +1,42 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0px;
+    background-color: #E0FFFB;
+  }
+
+/* TOP NAVIGATION BAR *************************************************************/
+
+  .topnav{
+    overflow: hidden;
+    background-color:#29CDB5;
+    height: 60px;
+ 
+  }
+
+  
+
+  .topnav a{
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 40px 16px;
+    padding-top: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 0px;
+  }
+
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .name{
+      padding-left: 20px;
+      padding-bottom: 20px;
+      color: rgb(241, 237, 237);
+  }
+  /* END OF TOP NAVIGATION BAR *************************************************************/
