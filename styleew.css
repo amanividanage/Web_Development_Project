@@ -48,8 +48,12 @@ html, body {
   /* Add padding to containers */
   .container {
     padding: 16px;
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: 700px;
+    margin-right: 400px;
+    position: absolute;
+    top: 50%;
+   
+    transform: translate(-50%, -50%);
   }
   
   /* Full-width input fields */
@@ -98,6 +102,12 @@ html, body {
   .signin {
     background-color: #f1f1f1;
     text-align: center;
+    margin-left: 700px;
+    margin-right: 500px;
+    position: absolute;
+    top: 90%;
+   
+    transform: translate(-50%, -50%);
   }
 
   /********************** End of Login Form*********************************************************/
