@@ -177,4 +177,16 @@ html, body {
       background-image: linear-gradient(to bottom, #9ce6cb, #eaeff2);
       text-decoration: none;
     }
+    #customers{
+      position: absolute;
+      align-items: center;
+      margin-left: 200px;
+      top: 300px;
+    }
+    .topic{
+      position: absolute;
+      top: 120px;
+      margin-left: 700px;
+
+    }
     
