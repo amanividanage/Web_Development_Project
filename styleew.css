@@ -102,10 +102,11 @@ html, body {
   .signin {
     background-color: #f1f1f1;
     text-align: center;
-    margin-left: 700px;
+    margin-left: 790px;
     margin-right: 500px;
     position: absolute;
-    top: 90%;
+    top: 80%;
+    padding-left: 0pt;
    
     transform: translate(-50%, -50%);
   }
