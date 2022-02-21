@@ -1,3 +1,29 @@
+<?php
+session_start();
+$mess="";
+if(isset($_POST["submit"])) {
+//conncet to the database
+require_once("./dbcon/user.php");
+include("./dbcon/dbcon.php"); //database connection function
+$email=$_POST["email"];
+$password=md5($_POST["password"]);
+//retriving data from db
+$query = "SELECT email FROM user_infor WHERE email = '$email' AND password = '$password'";
+$result=mysql_query($query);
+while($row=mysql_fetch_array($result)) {
+$email=$row["0"];
+}
+if(mysql_affected_rows()==0) {
+$mess = "<font color=purple size=2><b>Wrong username or password.<br>Please try again.</b></font>";
+} else {
+$_SESSION["email"]=$email;
+header("Location:./user/user1.php");
+exit;
+}
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -52,3 +78,5 @@
           <p>Haven't Registered yet? <a href="#">Register</a>.</p>
         </div>
       </form>
+      </body>
+      </html>
